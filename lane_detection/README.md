@@ -593,7 +593,7 @@ HTML("""
 
 ## Challenge
 
-Change the pipeline to detect the lane of this challengin video stream.
+Change the pipeline to detect the lane of this challenging video stream.
 
 ```python
 def new_process_image(image):   

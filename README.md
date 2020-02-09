@@ -1,2 +1,1 @@
-# self_driving_cars
-Algorithms and Applications
+# Autonomous Vehicles Projects

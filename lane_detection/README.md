@@ -682,7 +682,7 @@ HTML("""
 
 ## How to improve this pipeline ?
 
-1. Find a robust and stable curvature for the lane detection instead of a straigth of line. 
+1. Find a robust and stable curvature for the lane detection instead of a straigth line. 
 2. Tune the mask color parameters and split white and yellow lane lines for processing the challenging video.
 
 

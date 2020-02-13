@@ -668,19 +668,19 @@ HTML("""
 
 
 
-## Challenges
+## Challenges ?
 
-1. The first challenge was to tune the parameters for the hough transformation. 
-2. I had some issues with NaNs and Inf while debbuging the main pipeline.
-3. The most demanding was to stabilize the lane lines of both video streams.
+1. Tune the parameters for the hough transformation in the challenging video. 
+2. I built a function to check issues with NaNs and Inf in the arrays.
+3. I guess the most demanding task is to stabilize the lane lines of both video streams.
 
 
-## Identify potential shortcomings
+## What about the potential shortcomings ?
 
 1. The lane lines are straight and very stable in both video streams, however, the pipeline does not work with the challenging video. I believe that it would be also very difficult to detect the lane lines in medium to extreme environments conditions including shades, reflections, occlusions and diverse weather constraints.
 
 
-## Possible improvements to your pipeline
+## How to improve this pipeline ?
 
 1. Find a robust and stable curvature for the lane detection instead of a straigth of line. 
 2. Tune the mask color parameters and split white and yellow lane lines for processing the challenging video.

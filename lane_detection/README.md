@@ -677,7 +677,7 @@ HTML("""
 
 ## What about the potential shortcomings ?
 
-1. The lane lines are straight and very stable in both video streams, however, the pipeline does not work with the challenging video. I believe that it would be also very difficult to detect the lane lines in medium to extreme environments conditions including shades, reflections, occlusions and diverse weather constraints.
+1. The lane lines are straight and very stable in both video streams, however, the pipeline does not work with the challenging video. I believe that it would be also very difficult to detect the lane lines in medium to extreme environment conditions including shades, reflections, occlusions and diverse weather constraints.
 
 
 ## How to improve this pipeline ?
